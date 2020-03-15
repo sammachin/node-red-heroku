@@ -49,7 +49,7 @@ var settings = module.exports = {
     // Disbled Credential Secret
     credentialSecret: false,
 
-    settings.adminAuth = {
+    adminAuth = {
         type: "credentials",
         users: function(username) {
             if (process.env.NODE_RED_USERNAME == username) {
