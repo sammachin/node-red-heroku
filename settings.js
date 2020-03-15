@@ -45,8 +45,6 @@ var settings = module.exports = {
 
     functionGlobalContext: { },
 
-    storageModule: require("./mongostorage"),
-
     httpNodeCors: {
         origin: "*",
         methods: "GET,PUT,POST,DELETE"
